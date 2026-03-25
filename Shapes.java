@@ -1,4 +1,4 @@
-class Shapes {
+class Shapes_1 {
     public double area(double radius) {
         return Math.PI * radius * radius;
     }
@@ -21,7 +21,7 @@ class Shapes {
 
 public class Shapes {
     public static void main(String[] args) {
-        Shapes shape = new Shapes();
+        Shapes_1 shape = new Shapes_1();
         
         System.out.println("=== Area Calculator ===\n");
         
