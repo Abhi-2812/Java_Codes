@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>empServlet</servlet-name>
+        <servlet-class>com_emp.servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>empServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+</web-app>
